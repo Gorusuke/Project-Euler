@@ -1,11 +1,11 @@
 function multiplesOf3Or5(number) {
-  const arr = []
+  let sum = 0
   for (let i = 1; i < number; i++) {
     const isMultipleOf3 = i % 3 === 0
     const isMultipleOf5 = i % 5 === 0
-    if (isMultipleOf3 || isMultipleOf5) arr.push(i)
+    if (isMultipleOf3 || isMultipleOf5) sum += i
   }
-  return arr.reduce((a, b) => a + b, 0);
+  return sum
 }
 
 console.log(multiplesOf3Or5(10)); // 23
