@@ -24,9 +24,6 @@ function cyclesLength(n) {
   }
 }
 
-
-// console.log(test(7)) // 
-
 console.log(reciprocalCycles(700)) // 659
 console.log(reciprocalCycles(800)) // 743
 console.log(reciprocalCycles(900)) // 887
